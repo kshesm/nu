@@ -1,0 +1,43 @@
+// !$*UTF8*$!
+{ archiveVersion = 1; classes = {}; objectVersion = 56; objects = {
+0000000000000000000003E8 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community.swift; sourceTree = "<group>"; };
+0000000000000000000007D0 = { isa = PBXBuildFile; fileRef = 0000000000000000000003E8; };
+0000000000000000000003E9 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+0000000000000000000007D1 = { isa = PBXBuildFile; fileRef = 0000000000000000000003E9; };
+0000000000000000000003EA = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+0000000000000000000007D2 = { isa = PBXBuildFile; fileRef = 0000000000000000000003EA; };
+0000000000000000000003EB = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViews.swift; sourceTree = "<group>"; };
+0000000000000000000007D3 = { isa = PBXBuildFile; fileRef = 0000000000000000000003EB; };
+0000000000000000000003EC = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+0000000000000000000007D4 = { isa = PBXBuildFile; fileRef = 0000000000000000000003EC; };
+0000000000000000000003ED = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextUApp.swift; sourceTree = "<group>"; };
+0000000000000000000007D5 = { isa = PBXBuildFile; fileRef = 0000000000000000000003ED; };
+0000000000000000000003EE = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacePicker.swift; sourceTree = "<group>"; };
+0000000000000000000007D6 = { isa = PBXBuildFile; fileRef = 0000000000000000000003EE; };
+0000000000000000000003EF = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+0000000000000000000007D7 = { isa = PBXBuildFile; fileRef = 0000000000000000000003EF; };
+0000000000000000000003F0 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+0000000000000000000007D8 = { isa = PBXBuildFile; fileRef = 0000000000000000000003F0; };
+0000000000000000000003F1 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
+0000000000000000000007D9 = { isa = PBXBuildFile; fileRef = 0000000000000000000003F1; };
+0000000000000000000003F2 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+0000000000000000000007DA = { isa = PBXBuildFile; fileRef = 0000000000000000000003F2; };
+000000000000000000000064 = { isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+000000000000000000000065 = { isa = PBXBuildFile; fileRef = 000000000000000000000064; };
+000000000000000000000066 = { isa = PBXFileReference; lastKnownFileType = text.json; path = events.json; sourceTree = "<group>"; };
+000000000000000000000067 = { isa = PBXBuildFile; fileRef = 000000000000000000000066; };
+000000000000000000000001 = { isa = PBXProject; attributes = { LastUpgradeCheck = 1600; }; buildConfigurationList = 000000000000000000000032; compatibilityVersion = "Xcode 14.0"; developmentRegion = ru; knownRegions = (ru, en, Base); mainGroup = 000000000000000000000002; productRefGroup = 000000000000000000000003; projectDirPath = ""; projectRoot = ""; targets = (000000000000000000000004); };
+000000000000000000000002 = { isa = PBXGroup; children = (0000000000000000000003E8,0000000000000000000003E9,0000000000000000000003EA,0000000000000000000003EB,0000000000000000000003EC,0000000000000000000003ED,0000000000000000000003EE,0000000000000000000003EF,0000000000000000000003F0,0000000000000000000003F1,0000000000000000000003F2,000000000000000000000064,000000000000000000000066,000000000000000000000003); sourceTree = "<group>"; };
+000000000000000000000003 = { isa = PBXGroup; children = (000000000000000000000005); name = Products; sourceTree = "<group>"; };
+000000000000000000000004 = { isa = PBXNativeTarget; buildConfigurationList = 000000000000000000000033; buildPhases = (000000000000000000000006,000000000000000000000007,000000000000000000000008); buildRules = (); dependencies = (); name = NextU; productName = NextU; productReference = 000000000000000000000005; productType = "com.apple.product-type.application"; };
+000000000000000000000005 = { isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NextU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+000000000000000000000006 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (0000000000000000000007D0,0000000000000000000007D1,0000000000000000000007D2,0000000000000000000007D3,0000000000000000000007D4,0000000000000000000007D5,0000000000000000000007D6,0000000000000000000007D7,0000000000000000000007D8,0000000000000000000007D9,0000000000000000000007DA); runOnlyForDeploymentPostprocessing = 0; };
+000000000000000000000007 = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+000000000000000000000008 = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (000000000000000000000065,000000000000000000000067); runOnlyForDeploymentPostprocessing = 0; };
+00000000000000000000003C = { isa = XCBuildConfiguration; buildSettings = { SDKROOT = iphoneos; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SWIFT_VERSION = 5.0; CLANG_ENABLE_MODULES = YES; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; }; name = Debug; };
+00000000000000000000003D = { isa = XCBuildConfiguration; buildSettings = { SDKROOT = iphoneos; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SWIFT_VERSION = 5.0; CLANG_ENABLE_MODULES = YES; SWIFT_OPTIMIZATION_LEVEL = "-O"; }; name = Release; };
+00000000000000000000003E = { isa = XCBuildConfiguration; buildSettings = { CODE_SIGN_STYLE = Automatic; MARKETING_VERSION = 0.3.0; CURRENT_PROJECT_VERSION = 3; ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "NextU использует геопозицию, чтобы показать события рядом с вами."; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "NextU"; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking"; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait; PRODUCT_BUNDLE_IDENTIFIER = com.example.nextu; PRODUCT_NAME = "$(TARGET_NAME)"; TARGETED_DEVICE_FAMILY = 1; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_EMIT_LOC_STRINGS = YES; }; name = Debug; };
+00000000000000000000003F = { isa = XCBuildConfiguration; buildSettings = { CODE_SIGN_STYLE = Automatic; MARKETING_VERSION = 0.3.0; CURRENT_PROJECT_VERSION = 3; ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "NextU использует геопозицию, чтобы показать события рядом с вами."; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "NextU"; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking"; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait; PRODUCT_BUNDLE_IDENTIFIER = com.example.nextu; PRODUCT_NAME = "$(TARGET_NAME)"; TARGETED_DEVICE_FAMILY = 1; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_EMIT_LOC_STRINGS = YES; }; name = Release; };
+000000000000000000000032 = { isa = XCConfigurationList; buildConfigurations = (00000000000000000000003C,00000000000000000000003D); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+000000000000000000000033 = { isa = XCConfigurationList; buildConfigurations = (00000000000000000000003E,00000000000000000000003F); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+}; rootObject = 000000000000000000000001; }
